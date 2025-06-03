@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 40px 50px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.1);
+    border-radius: 8px;
+    width: 360px;
+    text-align: center;
+  }
+  
+  .logo {
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    width: 75px;
+  }
+  
+  h1 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #202124;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 6px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="email"]:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 1px #1a73e8;
+  }
+  
+  .forgot-link {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+    float: left;
+    margin-top: 12px;
+  }
+  
+  .create-account {
+    font-size: 14px;
+    color: #1a73e8;
+    text-decoration: none;
+    float: right;
+    margin-top: 12px;
+  }
+  
+  .btn-next {
+    margin-top: 40px;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-next:hover {
+    background-color: #1669c1;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
